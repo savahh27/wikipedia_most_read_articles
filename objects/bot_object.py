@@ -49,7 +49,7 @@ class Bot:
         select = Select(select_element)
         select.select_by_value("daily")
     
-    def set_dates(self, initialDate, finalDate):
+    def set_dates(self, initialDate="31.5.2021", finalDate="1.6.2021"):
         initialDate = datetime.strptime(initialDate, "%d.%m.%Y")
         finalDate = datetime.strptime(finalDate, "%d.%m.%Y")
         delta = finalDate - initialDate
