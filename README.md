@@ -20,3 +20,7 @@ This Python project automates the process of retrieving and compiling data about
    ```bash
    git clone https://github.com/savahh27/wikipedia_most_read_articles.git
    cd wikipedia_most_read_articles
+
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
